@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Curry Circle</title>
+</head>
+
+<body>
+    <!-- Background Image -->
+    <div class="bg-image"></div>
+    <!-- Main Content -->
+    <main>
+        <section id="membership">
+            <div class="form-container">
+                <form id="membership-form">
+                    <h2>Let's join us!</h2>
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first_name" id="first-name" class="input-field" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last_name" id="last-name" class="input-field" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" class="input-field" required>
+                    <button type="submit" class="submit-button">Let's Curry!</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById('membership-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const firstName = document.getElementById('first-name').value;
+            // Simple form validation
+            if (firstName && lastName && email) {
+                window.location.href = 'thank-you.html';
+            } else {
+                alert('Please fill out all fields.');
+            }
+        });
+    </script>
+</body>
+
+</html>
