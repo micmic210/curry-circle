@@ -137,10 +137,6 @@ nav {
     }
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
 /* Background image */
 .bg-image {
     background-image: url(/assets/images/members.jpeg);
