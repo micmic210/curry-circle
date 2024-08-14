@@ -12,7 +12,7 @@
 /* Reusable color variations */
 :root {
     --primary-color: #d77921;
-    --secondary-color: #3a3a3a;
+    --secondary-color: #2e2e2e;
     --text-color: #696969;
     --background-color: #fafafa;
 }
@@ -70,8 +70,6 @@ header a {
     color: var(--background-color);
     display: flex;
     align-items: center;
-    padding: 0;
-    margin: 0;
 }
 
 /* Navigation menu */
@@ -79,6 +77,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    flex-grow: 1;
 }
 
 #menu {
@@ -87,6 +86,7 @@ nav {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 #menu>li {
