@@ -97,6 +97,8 @@
         document.getElementById('membership-form').addEventListener('submit', function (event) {
             event.preventDefault();
             const firstName = document.getElementById('first-name').value;
+            const lastName = document.getElementById('last-name').value;
+            const email = document.getElementById('email').value;
             // Simple form validation
             if (firstName && lastName && email) {
                 window.location.href = 'thank-you.html';
