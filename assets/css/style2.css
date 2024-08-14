@@ -233,21 +233,15 @@ footer {
 #social-networks i.fa-brands {
     font-size: 160%;
     padding: 10px;
-    color: var(--background-color);
-    /* Ensure the color is white */
-    background-color: var(--primary-color);
-    /* Optional: Add background color */
-    border-radius: 50%;
-    /* Make the background circular */
+    color: var(--background-color); 
+    background-color: var(--primary-color); 
+    border-radius: 50%; 
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Hover effect to make the icon more interactive */
 #social-networks i.fa-brands:hover {
     background-color: var(--text-color);
-    /* Change background color on hover */
     color: var(--primary-color);
-    /* Change icon color on hover */
 }
 
 /* Style for footer logo */
@@ -257,7 +251,7 @@ footer {
 
 .footer-logo p {
     font-size: medium;
-    color: var(--background-color);
+    color: var(--primary-color);
     text-align: center;
 }
 
