@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-    width: 95%;
+    width: 98%;
     max-width: 1120px;
     margin: 0 auto;
     position: relative;
@@ -200,6 +200,9 @@ nav {
     cursor: pointer;
     font-size: 1rem;
 }
+.submit-button:hover {
+    background-color: var(--text-color);
+}
 
 /* Footer section */
 footer {
@@ -266,6 +269,27 @@ footer {
     margin-bottom: 0;
 }
 
-.submit-button:hover {
-    background-color: var(--text-color);
+/* Media Queries for Responsive Design */
+
+/* Desktop (1600 x 992) */
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    header {
+        height: 90px;
+    }
+
+    #menu>li {
+        margin-left: 3rem;
+    }
+
+    #social-networks i.fa-brands {
+        font-size: 180%;
+    }
 }
